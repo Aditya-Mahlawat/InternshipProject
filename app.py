@@ -40,7 +40,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Image
-st.image("ev-car-factory.jpg", use_container_width=True)
+# Display the image
+st.image("ev-car-factory.jpg", width=700)  # Replace use_container_width with a fixed width
 
 # Instruction line
 st.markdown("""
